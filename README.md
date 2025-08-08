@@ -152,19 +152,4 @@ This ETL pipeline ensures data is up-to-date, reliable, and queryable for analyt
 
 ---
 
-### Future Improvements
-
-- **API Enhancements:**
-  - Upgrade to an API that supports full date range queries and pagination.
-  - Add retries and backoff logic for robust network handling.
-
-- **Data Upserts:**
-  - Implement upsert functionality to update records if a newer version of the same report is fetched.
-
-- **Parallel Processing:**
-  - Allow fetching data for multiple countries concurrently to reduce runtime.
-
-- **Web Dashboard (Optional):**
-  - Build a simple web-based dashboard to visualize trends instead of using CLI only.
-
 
